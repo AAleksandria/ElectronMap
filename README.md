@@ -1,4 +1,4 @@
-# ElectronMap
+# ElectronMaps
 ***
 
 ## Установка
