@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta name="viewport" content="initial-scale=1.0, user-scalable=no">
+    <meta charset="utf-8">
+    <title>ElectronMaps</title>
+    <link href="bootstrap-3.3.7/css/bootstrap.min.css" rel="stylesheet">    
+    <link href="files/main.css" rel="stylesheet">    
+    
+  </head>
+  <body>
+
+    <div id="floating-panel">
+      <b>Способ передвижения: </b>
+      <select id="mode">
+        <option value="DRIVING">Авто</option>
+        <option value="WALKING">Пешком</option>
+        <option value="BICYCLING">Велосипед</option>
+        <option value="TRANSIT">Общественный транспорт</option>
+      </select>
+    </div>
+
+    <div id="TimeAndDistance">
+      <b>Откуда: </b> <i id="start_address">-</i> <br>
+      <b>Куда: </b> <i id="end_address">-</i> <br>
+      <b>Время: </b> <i id="time">-</i> <br>
+      <b>Расстояние: </b><i id="distance">-</i> 
+    </div>
+
+    <div id="map"></div>
+
+    <script src="bootstrap-3.3.7/js/jquery-1.9.1.min.js"></script>
+    <script src="bootstrap-3.3.7/js/bootstrap.min.js"></script>
+    <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAGg1KG92SlPLvGEWVw1AsVpMUCmu1PLKE&callback=initMap">
+    </script>
+    <script src="files/app.js"></script>
+
+
+  </body>
+</html>

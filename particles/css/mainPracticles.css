@@ -1,0 +1,83 @@
+.panel {
+    font-family: 'Roboto', 'Arial', 'sans-serif';
+    color: #eee;
+    font-size: 1.4em;
+    position: absolute;
+    z-index: 10;
+    width: 550px;
+    height: 100px;
+    top: 30%;
+    left: 10%;
+    margin: -110px 0 0 -100px;
+    padding: 20px;
+}
+
+#imageGif {
+    top: 10%;
+    left: 47%;
+    position: absolute;
+    z-index: 10;
+}
+
+#imageGif img{
+    width: 666px;
+    height: 398px;
+}
+
+b {
+    color: #FF6245;
+}
+
+a {
+    color: rgb(24, 172, 209);
+}
+
+body {
+  margin: 0;
+  font: normal 75% Arial, Helvetica, sans-serif;
+}
+
+canvas {
+  display: block;
+  vertical-align: bottom;
+}
+
+#particles-js {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background-color: #1D1F20;
+  background-image: url("");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: 50% 50%;
+}
+
+.count-particles{
+  background: #000022;
+  position: absolute;
+  top: 48px;
+  left: 0;
+  width: 80px;
+  color: #13E8E9;
+  text-align: left;
+  text-indent: 4px;
+  line-height: 14px;
+  padding-bottom: 2px;
+  font-family: Helvetica, Arial, sans-serif;
+  font-weight: bold;
+}
+
+#stats,
+.count-particles{
+  -webkit-user-select: none;
+}
+
+#stats{
+  border-radius: 3px 3px 0 0;
+  overflow: hidden;
+}
+
+.count-particles{
+  border-radius: 0 0 3px 3px;
+}

@@ -1,0 +1,56 @@
+      #map {
+        height: 100%;
+      }
+      
+      html, body {
+        height: 100%;
+        margin: 0;
+        padding: 0;
+      }
+      
+      #floating-panel {
+        position: absolute;
+        top: 10px;
+        left: 130px;
+        z-index: 5;
+        background-color: #fff;
+        border-radius: 2px 2px 2px 2px;
+        box-shadow: 0 2px 4px rgba(0,0,0,0.2), 0 -1px 0px rgba(0,0,0,0.02);
+        padding: 5px;
+        /* border: 1px solid #999; */
+        text-align: center;
+        font-family: 'Roboto', 'Arial', 'sans-serif';
+        line-height: 0px;
+        padding-left: 10px;
+      }
+
+      #TimeAndDistance {
+        position: absolute;
+        padding: 5px;
+        left: 10px;
+        top: 70px;
+        width: 200px;
+        z-index: 5;
+        font-family: 'Roboto', 'Arial', 'sans-serif';
+        background-color: #fff;
+        border-radius: 2px 2px 2px 2px;
+        box-shadow: 0 2px 4px rgba(0,0,0,0.2), 0 -1px 0px rgba(0,0,0,0.02);
+      }
+
+      .dropdown{
+        visibility: hidden;
+        margin-right: 20%;
+        /* background:#ffffff;
+        border:1px solid #8888FF; */
+        z-index: 10;  
+        position: relative;
+        width: 160px;
+      }
+
+      .dropdown div{
+        padding-left: 15px
+      }
+      
+      .dropdown-menu {
+        display: block;
+      }
