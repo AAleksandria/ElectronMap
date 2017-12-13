@@ -17,7 +17,7 @@ menuTemplate = [
 let mainWindow
 
 // создание основного окна приложения
-function createWindow () {
+function createWindow() {
   mainWindow = new BrowserWindow({
     center: true,
     icon: path.join(__dirname, '/files/GoogleMaps.ico')
